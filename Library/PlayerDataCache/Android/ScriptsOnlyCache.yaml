@@ -39,21 +39,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9670}
+      Script: {instanceID: 9672}
     - Class: 114
-      Script: {instanceID: 9818}
+      Script: {instanceID: 9826}
     - Class: 114
-      Script: {instanceID: 9858}
+      Script: {instanceID: 9866}
     - Class: 114
-      Script: {instanceID: 10224}
+      Script: {instanceID: 10242}
     - Class: 114
-      Script: {instanceID: 10560}
+      Script: {instanceID: 10592}
     - Class: 114
-      Script: {instanceID: 11000}
+      Script: {instanceID: 10594}
     - Class: 114
-      Script: {instanceID: 11340}
+      Script: {instanceID: 11046}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 11398}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -301,6 +301,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: 98536567d8f4c59323d3bdf421e5b919
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PM_Debug_Android
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -491,13 +497,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 3eabed6cff55a0fa8ec8a76ea96a018e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PM_Debug_Android
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/UnityProjects/LineGames/LineGames.apk
+  playerPath: C:/Users/user/Desktop/UnityBackGroundDownload/LineGames.apk
