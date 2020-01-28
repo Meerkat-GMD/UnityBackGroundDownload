@@ -24,15 +24,23 @@ public class AndroidPlugin : MonoBehaviour
         UnityInstance.Call("setReceiver");
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     void OnApplicationPause(bool pause)
     {
-       if(pause && !download)
+        download = UnityInstance.Call<bool>("getDownload");
+        if (pause && !download)
         {
             UnityInstance.Call("beginDownload", "https://user-images.githubusercontent.com/18138559/73243967-34ac0f00-41ec-11ea-9afa-c7df5dacb648.jpg", Filename);
         }
        else if(!pause)
        {
-            download = UnityInstance.Call<bool>("getDownload");
             if(download)
             {
                 testText.text = "다운로드 완료";
@@ -43,6 +51,19 @@ public class AndroidPlugin : MonoBehaviour
                 img.sprite = s;
             }
        }
+    }
+
+    private void OnApplicationQuit()
+    {
+        string[] files = System.IO.Directory.GetFiles(Application.persistentDataPath);
+        foreach(string s in files)
+        {
+            string fileName = System.IO.Path.GetFileName(s);
+
+            string deletefile = Application.persistentDataPath+ "/" + fileName;
+
+            System.IO.File.Delete(deletefile);
+        }
     }
 
     /*
