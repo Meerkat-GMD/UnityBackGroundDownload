@@ -1,9 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - PM_Debug_Android
+    - AndroidPlugin
     Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatConsoleWindow
     - Unity.Android.Logcat.AndroidLogcatManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -17,7 +16,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/AndroidPlugin.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -51,7 +50,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10594}
     - Class: 114
-      Script: {instanceID: 11046}
+      Script: {instanceID: 11044}
     - Class: 114
       Script: {instanceID: 11398}
     - Class: 115
@@ -278,12 +277,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AndroidPluginTest
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAnimator
@@ -304,7 +297,7 @@ ScriptsOnlyBuild:
       Hash: 98536567d8f4c59323d3bdf421e5b919
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PM_Debug_Android
+    className: AndroidPlugin
   - hash:
       serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
@@ -499,5 +492,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/AndroidPlugin.unity
   playerPath: C:/Users/user/Desktop/UnityBackGroundDownload/LineGames.apk
