@@ -2,11 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - AndroidPlugin
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -40,19 +37,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9672}
     - Class: 114
-      Script: {instanceID: 9826}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9866}
+      Script: {instanceID: 9874}
     - Class: 114
-      Script: {instanceID: 10242}
+      Script: {instanceID: 10262}
     - Class: 114
-      Script: {instanceID: 10592}
+      Script: {instanceID: 10622}
     - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10624}
     - Class: 114
-      Script: {instanceID: 11044}
+      Script: {instanceID: 11092}
     - Class: 114
-      Script: {instanceID: 11398}
+      Script: {instanceID: 11456}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
